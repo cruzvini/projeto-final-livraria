@@ -1,0 +1,31 @@
+{
+  "name": "livraria_mern",
+  "version": "1.0.0",
+  "description": "DB Livraria",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "app": "nodemon app.js",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cruzvini/projeto-final-livraria.git"
+  },
+  "author": "Vinicius Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cruzvini/projeto-final-livraria/issues"
+  },
+  "homepage": "https://github.com/cruzvini/projeto-final-livraria#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "config": "^3.3.12",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
