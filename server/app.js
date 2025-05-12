@@ -4,7 +4,9 @@ const connectDB = require('./config/db');
 
 const booksRoutes = require('./routes/api/books');
 
-const cors = require('cors')
+const cors = require('cors');
+
+require('dotenv').config();
 
 const app = express();
 
