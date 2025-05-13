@@ -17,7 +17,7 @@ function UpdateBookInfo(props) {
   const navigate = useNavigate();
   useEffect(() => {
     axios
-    .get(`${apiUrl}/api/books/${id}`);
+    .get(`${apiUrl}/api/books/${id}`)
       .then((res) => {
         setBook({
           title: res.data.title,
