@@ -4,6 +4,7 @@ import axios from "axios";
 import "../App.css";
 
 function UpdateBookInfo(props) {
+  const apiUrl = import.meta.env.VITE_API_URL;
   const [book, setBook] = useState({
     title: "",
     isbn: "",
@@ -16,7 +17,7 @@ function UpdateBookInfo(props) {
   const navigate = useNavigate();
   useEffect(() => {
     axios
-      .get(`http://localhost:8082/api/books/${id}`)
+    .get(`${apiUrl}/api/books/${id}`)
       .then((res) => {
         setBook({
           title: res.data.title,
@@ -45,7 +46,7 @@ function UpdateBookInfo(props) {
       publisher: book.publisher,
     };
     axios
-      .put(`http://localhost:8082/api/books/${id}`, data)
+      .put(`${apiUrl}/api/books/${id}`, data)
       .then((res) => {
         navigate(`/show-book/${id}`);
       })
@@ -61,8 +62,7 @@ function UpdateBookInfo(props) {
             <br />
             <Link
               to="/"
-              className="btn btn-outline-warning
-float-left"
+              className="btn btn-outline-warningfloat-left"
             >
               Show BooK List
             </Link>
@@ -148,8 +148,7 @@ float-left"
             <br />
             <button
               type="submit"
-              className="btn btn-outline-info btn-lg
-btn-block"
+              className="btn btn-outline-info btn-lgbtn-block"
             >
               Update Book
             </button>
