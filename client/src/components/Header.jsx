@@ -11,7 +11,7 @@ function Header({ toggleSidebar }) {
         <div className="headerSearch">
           <div className="headerSearchSimbol">
             <img
-              src="./images/search.png"
+              src="/images/search.png"
               alt="searchIcon"
               className="searchIcon"
             />
@@ -21,14 +21,14 @@ function Header({ toggleSidebar }) {
         <div className="headerProfile">
           <a href="#">
             <img
-              src="./images/bell.png"
+              src="/images/bell.png"
               alt="Notification icon"
               className="headerProfileNotificationSimbol"
             />
           </a>
           <a href="#">
             <img
-              src="./images/morgan.svg"
+              src="/images/morgan.svg"
               alt="Photo Profile"
               className="headerProfilePhoto"
             />
@@ -41,7 +41,7 @@ function Header({ toggleSidebar }) {
         <div className="headerTilePageLeft">
           <a href="#">
             <img
-              src="./images/morgan.svg"
+              src="/images/morgan.svg"
               alt="Photo Profile"
               className="profileMeanPhoto"
             />

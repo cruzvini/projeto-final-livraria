@@ -14,7 +14,7 @@ function Sidebar({ toggleSidebar }) {
 
       <div className="sideBarTitle">
         <img
-          src="./images/dashboard.png"
+          src="/images/dashboard.png"
           alt="dashboardAvatar"
           className="dashboardAvatar"
         />
