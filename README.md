@@ -1,6 +1,6 @@
 # 📚 Projeto Dashboard - Controle de Biblioteca
 
-Este projeto foi desenvolvido como parte do curso **Full Stack** da [3Way Academy](https://3way.digital/), com o objetivo de consolidar os conhecimentos em **HTML**, **CSS**, **JavaScript** e **React**, incluindo conceitos de **componentização**, **rotas**, **layouts reutilizáveis**, **integração com back-end** e **hospedagem em nuvem**.
+Este projeto foi desenvolvido como parte do curso **Full Stack** da [3Way Academy](https://3way.com.br), com o objetivo de consolidar os conhecimentos em **HTML**, **CSS**, **JavaScript** e **React**, incluindo conceitos de **componentização**, **rotas**, **layouts reutilizáveis**, **integração com back-end** e **hospedagem em nuvem**.
 
 ## 🔍 Descrição do Projeto
 
